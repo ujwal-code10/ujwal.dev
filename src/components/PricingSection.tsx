@@ -49,6 +49,13 @@ const PricingSection = () => {
     }
   ];
 
+  const handleGetStarted = () => {
+    const element = document.getElementById('contact');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section id="pricing" className="py-20 bg-gradient-to-br from-navy-900 to-navy-800 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -100,11 +107,14 @@ const PricingSection = () => {
                 ))}
               </ul>
 
-              <button className={`w-full py-4 rounded-lg font-semibold transition-all duration-300 ${
-                plan.popular
-                  ? 'bg-navy-900 text-gold-400 hover:bg-navy-800'
-                  : 'bg-gold-500 text-navy-900 hover:bg-gold-400'
-              }`}>
+              <button 
+                onClick={handleGetStarted}
+                className={`w-full py-4 rounded-lg font-semibold transition-all duration-300 ${
+                  plan.popular
+                    ? 'bg-navy-900 text-gold-400 hover:bg-navy-800'
+                    : 'bg-gold-500 text-navy-900 hover:bg-gold-400'
+                }`}
+              >
                 Get Started
               </button>
             </div>

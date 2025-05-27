@@ -23,6 +23,13 @@ const ServicesSection = () => {
     }
   ];
 
+  const handleLearnMore = () => {
+    const element = document.getElementById('contact');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section id="services" className="py-20 bg-navy-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -52,7 +59,10 @@ const ServicesSection = () => {
 
               <div className="border-t pt-6">
                 <div className="text-2xl font-bold text-navy-900 mb-4">{service.price}</div>
-                <button className="w-full bg-gradient-to-r from-gold-500 to-gold-600 text-white py-3 rounded-lg font-semibold hover:from-gold-600 hover:to-gold-700 transition-all duration-300">
+                <button 
+                  onClick={handleLearnMore}
+                  className="w-full bg-gradient-to-r from-gold-500 to-gold-600 text-white py-3 rounded-lg font-semibold hover:from-gold-600 hover:to-gold-700 transition-all duration-300"
+                >
                   Learn More
                 </button>
               </div>
