@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const TestimonialsSection = () => {
@@ -13,7 +12,7 @@ const TestimonialsSection = () => {
       name: "Michael Chen",
       role: "Entrepreneur", 
       content: "Working with Sarah was a game-changer. She helped me overcome imposter syndrome and scale my business to 7 figures. I can't recommend her enough!",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80"
+      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80"
     },
     {
       name: "Jessica Thompson",
