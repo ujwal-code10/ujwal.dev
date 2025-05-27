@@ -6,7 +6,7 @@ const TestimonialsSection = () => {
       name: "Emily Rodriguez",
       role: "Marketing Director",
       content: "Sarah helped me transition from a corporate job I hated to starting my own successful consulting business. Her guidance was invaluable in building my confidence and creating a clear action plan.",
-      image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80"
+      image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80"
     },
     {
       name: "Michael Chen",
