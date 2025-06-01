@@ -134,7 +134,7 @@ const ContactSection = () => {
               <div className="bg-white p-6 rounded-lg border border-navy-200 text-center">
                 <p className="text-navy-600 mb-4">Click below to schedule your free call:</p>
                 <a
-                  href="https://calendly.com/sarah-mitchell-coaching"
+                  href="https://calendly.com/gojomagar14/30min"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block bg-gradient-to-r from-gold-500 to-gold-600 text-white px-8 py-3 rounded-lg font-semibold hover:from-gold-600 hover:to-gold-700 transition-all duration-300"
