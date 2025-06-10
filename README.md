@@ -1,73 +1,130 @@
-# Welcome to your Lovable project
+# Personal Portfolio Website
 
-## Project info
+A modern, responsive personal portfolio website built with cutting-edge technologies and best practices in web development.
 
-**URL**: https://lovable.dev/projects/1b075d64-ee11-4c5f-8ad4-f9a5ec4cd374
+## 🚀 Features
 
-## How can I edit this code?
+- **Modern Tech Stack**: Built with Vite, React, and TypeScript
+- **Beautiful UI Components**: Utilizing shadcn-ui for a polished look
+- **Responsive Design**: Fully responsive layout using Tailwind CSS
+- **Type-Safe**: Full TypeScript support for enhanced development experience
+- **Performance Optimized**: Built with Vite for lightning-fast development and production builds
+- **Component Library**: Extensive collection of pre-built components from Radix UI
+- **Form Handling**: Integrated with React Hook Form and Zod for robust form validation
+- **Routing**: Client-side routing with React Router
+- **Data Visualization**: Support for charts and graphs using Recharts
+- **Theme Support**: Dark/Light mode support with next-themes
 
-There are several ways of editing your application.
+## 📦 Prerequisites
 
-**Use Lovable**
+Before you begin, ensure you have the following installed:
+- Node.js (LTS version recommended)
+- npm or bun package manager
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1b075d64-ee11-4c5f-8ad4-f9a5ec4cd374) and start prompting.
+## 🛠️ Installation
 
-Changes made via Lovable will be committed automatically to this repo.
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd ujwal.dev
+   ```
 
-**Use your preferred IDE**
+2. Install dependencies:
+   ```bash
+   npm install
+   # or if using bun
+   bun install
+   ```
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+3. Start the development server:
+   ```bash
+   npm run dev
+   # or
+   bun run dev
+   ```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+4. Open [http://localhost:5173](http://localhost:5173) in your browser
 
-Follow these steps:
+## 🔧 Available Scripts
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run build:dev` - Build for development
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint for code linting
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🏗️ Project Structure
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+ujwal.dev/
+├── src/              # Source files
+├── public/           # Static files
+├── components.json   # shadcn-ui components configuration
+├── tailwind.config.ts # Tailwind CSS configuration
+├── vite.config.ts    # Vite configuration
+└── tsconfig.json     # TypeScript configuration
 ```
 
-**Edit a file directly in GitHub**
+## 🎨 Tech Stack
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Core
+- [React](https://reactjs.org/) - UI Library
+- [TypeScript](https://www.typescriptlang.org/) - Programming Language
+- [Vite](https://vitejs.dev/) - Build Tool
 
-**Use GitHub Codespaces**
+### Styling & Components
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- [shadcn-ui](https://ui.shadcn.com/) - Re-usable components
+- [Radix UI](https://www.radix-ui.com/) - Headless UI components
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Form & Validation
+- [React Hook Form](https://react-hook-form.com/) - Form handling
+- [Zod](https://zod.dev/) - Schema validation
 
-## What technologies are used for this project?
+### Data Visualization
+- [Recharts](https://recharts.org/) - Charting library
 
-This project is built with:
+### Development Tools
+- [ESLint](https://eslint.org/) - Code linting
+- [PostCSS](https://postcss.org/) - CSS processing
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🚀 Deployment
 
-## How can I deploy this project?
+The project can be deployed to any static hosting platform. Build the project using:
 
-Simply open [Lovable](https://lovable.dev/projects/1b075d64-ee11-4c5f-8ad4-f9a5ec4cd374) and click on Share -> Publish.
+```bash
+npm run build
+```
 
-## Can I connect a custom domain to my Lovable project?
+The built files will be in the `dist` directory, ready for deployment.
 
-Yes, you can!
+## 📝 Development Guidelines
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+- Follow the TypeScript guidelines and maintain type safety
+- Use the pre-configured ESLint rules for code consistency
+- Follow the component structure defined in the project
+- Utilize Tailwind CSS for styling
+- Make use of shadcn-ui components when available
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 👤 Author
+
+ujwal-code10
+- Website:(https://v0-react-landing-page-template-ashen.vercel.app/)
+- GitHub: (https://github.com/ujwal-code10/saas-project-landing-page.git)
+
+---
+
+Built with ❤️ using modern web technologies
+
